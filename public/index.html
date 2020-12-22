@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico"/>
+  <title>Hello Orange后台管理系统</title>
+  <meta
+    name="keywords"
+    content="Vue官网,后台管理框架,vue后台管理框架,vue,vue官网,vue文档,vue-element-admin,vue-element-admin官网,vue-element-admin文档,vue-admin,vue-admin官网,vue-admin文档"
+  />
+  <meta
+    name="description"
+    content="<%= VUE_APP_TITLE %>官网与文档基于vue构建 <%= VUE_APP_AUTHOR %>"
+  />
+  <meta name="author" content="bbbbbbbbb"/>
+  <link rel="stylesheet" href="<%= BASE_URL %>static/css/loading.css"/>
+  <script>
+  var _hmt = _hmt || [];
+  (function () {
+    var hm = document.createElement('script')
+    hm.src = 'https://hm.baidu.com/hm.js?7174bade1219f9cc272e7978f9523fc8'
+    var s = document.getElementsByTagName('script')[0]
+    s.parentNode.insertBefore(hm, s)
+  })()
+  </script>
+</head>
+<body>
+<noscript>
+  非常抱歉鉴于安全考量,您无法查看<%= VUE_APP_TITLE %>源代码... ...
+</noscript>
+<div id="vue-admin-beautiful">
+  <div class="first-loading-wrp">
+    <div class="loading-wrp">
+          <span class="dot dot-spin">
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+          </span>
+    </div>
+    <h1><%= VUE_APP_TITLE %></h1>
+  </div>
+</div>
+<script>
+/^http(s*):\/\//.test(location.href) ||
+alert('本项目需要部署到服务器下访问')
+</script>
+</body>
+</html>
